@@ -4,10 +4,7 @@
  */
 package com.portfolio.mgb.Entity;
 
-/**
- *
- * @author guada
- */
+
 interface UserDetails {
     
 }
