@@ -7,10 +7,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-/**
- *
- * @author guada
- */
 public class UsuarioPrincipal implements UserDetails {
 
     private String nombre;
@@ -19,12 +15,12 @@ public class UsuarioPrincipal implements UserDetails {
     private String password;
     private Collection<? extends GrantedAuthority> authorities;
 
-//Constructor
-    public UsuarioPrincipal(String nombre, String nombreUsuario, String email, String passsword, Collection<? extends GrantedAuthority> authorities) {
+    //Constructor
+    public UsuarioPrincipal(String nombre, String nombreUsuario, String email, String password, Collection<? extends GrantedAuthority> authorities) {
         this.nombre = nombre;
         this.nombreUsuario = nombreUsuario;
         this.email = email;
-        this.password = passsword;
+        this.password = password;
         this.authorities = authorities;
     }
 

@@ -8,7 +8,7 @@ package com.portfolio.mgb.Security.Controller;
 public class Mensaje {
     private String mensaje;
     
-    //CONSTRUCTORES
+    //constructor
 
     public Mensaje() {
     }
@@ -16,8 +16,7 @@ public class Mensaje {
     public Mensaje(String mensaje) {
         this.mensaje = mensaje;
     }
-    
-    //GETTER AND SETTER
+    //Getter y Setter
 
     public String getMensaje() {
         return mensaje;

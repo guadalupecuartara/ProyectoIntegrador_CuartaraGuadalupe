@@ -1,4 +1,3 @@
-
 package com.portfolio.mgb.Service;
 
 import com.portfolio.mgb.Entity.Persona;
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ImpPersonaService implements IPersonaService{
     @Autowired IPersonaRepository ipersonaRepository;
-    
+
     @Override
     public List<Persona> getPersona() {
         List<Persona> persona = ipersonaRepository.findAll();

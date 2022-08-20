@@ -13,7 +13,7 @@ public class LoginUsuario {
     @NotBlank
     private String password;
     
-    //GETTER AND SETTER
+    //Getter and Setter
 
     public String getNombreUsuario() {
         return nombreUsuario;
